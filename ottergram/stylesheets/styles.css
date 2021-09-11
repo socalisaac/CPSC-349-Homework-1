@@ -89,6 +89,7 @@ a {
 .thumbnail-image {
   display: block;
   width: 100%;
+  min-height: 80px;
 }
 
 .thumbnail-title {
