@@ -8,9 +8,9 @@ Cal State Fullerton CPSC-349-Homework-1
   font-family: 'lakeshore';
   src: url('fonts/LAKESHOR-webfont.eot');
   src: url('fonts/LAKESHOR-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/LAKESHOR-webfont.woff') format('woff'),
-       url('fonts/LAKESHOR-webfont.ttf') format('truetype'),
-       url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
+    url('fonts/LAKESHOR-webfont.woff') format('woff'),
+    url('fonts/LAKESHOR-webfont.ttf') format('truetype'),
+    url('fonts/LAKESHOR-webfont.svg#lakeshore') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -19,14 +19,15 @@ Cal State Fullerton CPSC-349-Homework-1
   font-family: 'airstreamregular';
   src: url('fonts/Airstream-webfont.eot');
   src: url('fonts/Airstream-webfont.eot?#iefix') format('embedded-opentype'),
-       url('fonts/Airstream-webfont.woff') format('woff'),
-       url('fonts/Airstream-webfont.ttf') format('truetype'),
-       url('fonts/Airstream-webfont.svg#lakeshore') format('svg');
+    url('fonts/Airstream-webfont.woff') format('woff'),
+    url('fonts/Airstream-webfont.ttf') format('truetype'),
+    url('fonts/Airstream-webfont.svg#lakeshore') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-html, body { 
+html,
+body {
   height: 100%;
 }
 
@@ -46,7 +47,7 @@ a {
   flex: 0 1 auto;
 }
 
-.logo-text { 
+.logo-text {
   background: white;
 
   text-align: center;
@@ -55,7 +56,7 @@ a {
   font-size: 37px;
 }
 
-.main-content { 
+.main-content {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
@@ -85,7 +86,7 @@ a {
   overflow-x: auto;
 }
 
-.thumbnail-image { 
+.thumbnail-image {
   display: block;
   width: 100%;
 }
@@ -113,7 +114,7 @@ a {
   text-align: center;
 }
 
-.detail-image { 
+.detail-image {
   width: 90%;
 }
 
